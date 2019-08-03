@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+.logo img{
+	float: left;
+	width: 140px;
+	height: auto;
+}
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../3.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.login{
+	width: 360px;
+	padding: 10%;
+	margin: auto;
+}
+.loginmain ul li a{
+	border: 2px solid #F8D420;
+	padding: 5px 10px;
+	text-decoration: none;
+	list-style-type: none;
+
+}
+.loginmain{
+	position: absolute;
+	top: 10%;
+	left: 46%;
+	color:#88F1F6
+
+	}
+
+	
+.form{
+	position: relative;
+	z-index: 1;
+	background: #F18880;
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+}
+.form input{
+	font-family: "Roboto", sans-serif;
+	outline: 1;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.form button{
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	outline:  0;
+	background: #106832;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+}
+.back ul li a{
+	border: 2px solid #F8D420;
+	padding: 5px 20px;
+}
+.back{
+	position: absolute;
+	top: 5%;
+	right:5%;
+	color:#ECA623
+}
+ul{
+	list-style-type: none;
+}
+.footer{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	color: #fff;
+}
+.footer-inner{
+	position: absolute;
+	top: 95%;
+	left: 65%;
+	color: #fff;
+}
+.co{
+	color: #88F1F6;
+		}
+
+	.back ul li a{
+	border: 1.5px solid #fff;
+	padding: 5px 20px;
+	color: #EEB032
+	
+}
+.back ul li a:hover{
+
+	background-color: #EAF1F3;
+	color: #000;
+}
+ul li a{
+	text-decoration: none;
+}
